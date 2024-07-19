@@ -1,3 +1,3 @@
 void call() {
-    emailext body: '<h1>accentué<h1/>', subject: 'test', to: 'contact@boureajm.fr'
+    emailext attachLog: true, body: '<h1>accentué<h1/>', mimeType: 'text/html', subject: 'subject', to: 'contact@me.com'
 }
