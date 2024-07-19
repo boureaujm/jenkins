@@ -8,6 +8,7 @@ void call() {
 <p>My first paragraph.</p>
 
 </body>
-</html>'''
+</html>
+'''
     emailext attachLog: true, body: body, mimeType: 'text/html', subject: 'subject', to: 'contact@me.com'
 }
